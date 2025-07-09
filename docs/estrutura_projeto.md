@@ -8,13 +8,13 @@ Contém os arquivos-fonte do projeto.
 `html/`
   - `login.html`: Tela de login com formulário de entrada.
   - `register.html`: Tela de cadastro para novos usuários.
+  - `reset.password.html`: Tela de reset de senha
   
 `css/`
   - `style.css`: Estilos gerais aplicados nas telas.
   
 `js/`
   - `validation.js`: Script responsável por validar os dados de entrada nos formulários.
-  - `auth.js`: Script simulado de autenticação dos usuários.
 
 ## 📁 tests/
 Reúne tudo relacionado a testes automatizados.
