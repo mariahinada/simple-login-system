@@ -1,5 +1,5 @@
 # simple-login-system
-projeto autoral de login com validações e teste automatizado em cypress
+projeto autoral de login com validações e testes automatizados em cypress
 
 ## Funcionalidades
 
