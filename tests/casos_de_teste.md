@@ -21,4 +21,4 @@
 - Enviar email vazio → `alertar email inválido`
 - Enviar email sem @ → `alertar email inválido`
 - Enviar email válido → `alertar instruções enviadas`
-- Enviar email inválido → `alertar instruções enviadas` (falha prevista nessa versão)
+- Enviar email inválido → `alertar instruções enviadas` (falha prevista nesta versão)
