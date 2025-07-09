@@ -2,6 +2,17 @@
 
 Temos algumas regras de negócio:
 
+## Login
+
+### E-mail
+
+Mesmo critério do cadastro
+
+### Senha
+
+Obrigatória
+Deve ser a senha cadastrada
+
 ## Registro de conta
 
 ### E-mail
@@ -25,20 +36,13 @@ Pelo menos um caractere especial (ex:!@#$%&*)
 Obrigatória
 Deve ser igual à senha
 
-## Login
-
-### E-mail
-
-Mesmo critério do cadastro
-
-### Senha
-
-Obrigatória
-Deve ser a senha cadastrada
-
 ## Mensagens de erro esperadas
 
 - E-mail inválido
 - Senha fraca: use letras maiúsculas, número(s) e caracteres especiais.
 - Senhas não conferem
 - Preencha todos os campos obrigatórios
+
+## Reset de Senha
+
+Sem validação (sempre dá sucesso)
