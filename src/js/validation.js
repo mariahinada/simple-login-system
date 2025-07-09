@@ -28,17 +28,14 @@ function setupLoginValidation() {
             return;
         }
 
-        // Pega os usuários do localStorage ou cria array vazio
         let users = JSON.parse(localStorage.getItem('users')) || [];
 
-        // Verifica se existe usuário com email e senha
         const userExists = users.some(user => user.email === email && user.password === password);
 
         if(userExists) {
             alert('Login bem-sucedido!');
             form.reset();
-            // Aqui você pode redirecionar para uma página real
-            // window.location.href = 'dashboard.html';
+
         } else {
             alert('Email ou senha incorretos. Por favor, tente novamente.');
         }
@@ -69,16 +66,13 @@ function setupRegisterValidation() {
             return;
         }
 
-        // Busca usuários salvos
         let users = JSON.parse(localStorage.getItem('users')) || [];
 
-        // Verifica se email já existe
         if(users.some(user => user.email === email)) {
             alert('Este email já está cadastrado.');
             return;
         }
 
-        // Se não existe, adiciona novo usuário
         users.push({ email, password });
         localStorage.setItem('users', JSON.stringify(users));
 

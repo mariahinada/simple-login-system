@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="validation.js" defer></script>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script src="/src/js/validation.js" defer></script>
     <link rel="shortcut icon" href="/src/images/graos-de-cafe.ico" type="image/x-icon">
 </head>
 <body>
 
     <main>
-        <p class="paragraph-container">Faça login para continuar:</p>
-        <form action="#" method="post">
+        <p>Preencha os dados para criar uma nova conta:</p>
+
+        <form action="" method="post">
 
             <p class="input-container">
                 <input type="email" id="email" name="email" placeholder="E-mail" required>
@@ -20,20 +21,22 @@
 
             <p class="input-container">
                 <input type="password" id="password" name="password" placeholder="Senha" required>
-
             </p>
-            <div class="button-container">
-                <button type="submit">Entrar</button>
-            </div>
+            
+            <p class="input-container">
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme a Senha" required>
+            </p>
 
+            <div class="button-container">
+                <button type="submit">Cadastrar</button>
+            </div>
         </form>
 
     <section class="footer-container">
-        <p class="footer-paragraph">Não tem uma conta? <a href="register.html">Cadastre-se</a>
+
+        <p class="footer-paragraph">Já tem uma conta? <a href="login.html">Entrar na conta</a>
         </p>
 
-        <p class="footer-paragraph">Esqueceu sua senha? <a href="reset-password.html">Redefinir senha</a>
-        </p>
     </section>
 
     </main>
