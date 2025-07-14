@@ -1,5 +1,7 @@
 # simple-login-system
+
 projeto autoral de login com validações e testes automatizados em cypress
+<img width="1440" height="761" alt="Captura de Tela 2025-07-14 às 17 43 40" src="https://github.com/user-attachments/assets/9f85d033-a508-42dc-842f-e7d5b7a396ac" />
 
 ## Funcionalidades
 
