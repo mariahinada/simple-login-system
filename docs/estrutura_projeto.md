@@ -6,7 +6,6 @@ Este projeto é um sistema simples de login e cadastro composto por:
 Contém os arquivos-fonte do projeto.
 
 `html/`
-  - `login.html`: Tela de login com formulário de entrada.
   - `register.html`: Tela de cadastro para novos usuários.
   - `reset.password.html`: Tela de reset de senha
   

@@ -1,6 +1,6 @@
 describe('Fluxo de Login', () => {
   beforeEach(() => {
-    cy.visit('src/html/login.html');
+    cy.visit('/index.html');
 
 const users = [{ email: 'teste@exemplo.com', password: '123456' }];
   localStorage.setItem('users', JSON.stringify(users));
