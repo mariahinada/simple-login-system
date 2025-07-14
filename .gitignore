@@ -1,8 +1,5 @@
 .DS_Store
-<<<<<<< Updated upstream
 
-.gitatributes.gitattributes
-=======
+.gitattributes
 node_modules/
-cypress/downloads/
->>>>>>> Stashed changes
+cypress/downloads
