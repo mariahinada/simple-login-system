@@ -2,6 +2,8 @@
 
 ## Login
 
+![A001 - A004](./images/login.png)
+
 A001
 Cenário: Email sem @
 Entrada: email: `usuario.com`, senha: `123456`
@@ -27,6 +29,8 @@ Resultado esperado: Alertar `Login bem-sucedido.`
 Resultado obtido: Mensagem exibida corretamente.
 
 ## Registro
+
+![B001 - B006](./images/register.png)
 
 B001
 Cenário: Email vazio
@@ -65,6 +69,8 @@ Resultado esperado: Limpar o form e alertar `Usuário cadastrado com sucesso!`
 Resultado obtido: Mensagem exibida corretamente.
 
 ## Recuperação de Senha
+
+![C001 - C003](./images/reset-password.png)
 
 C001
 Cenário: Email vazio

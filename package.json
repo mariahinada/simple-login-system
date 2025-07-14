@@ -1,0 +1,19 @@
+{
+  "name": "simple-login-system",
+  "version": "1.0.0",
+  "description": "projeto autoral de login com validações e testes automatizados em cypress",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.1"
+  }
+}
