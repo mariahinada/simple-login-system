@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/src/images/pexels-allanfranca-3465604.jpg');
+    background-image: url('./src/images/pexels-allanfranca-3465604.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
