@@ -14,6 +14,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^14.5.1"
-  }
+    "cypress": "^14.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariahinada/simple-login-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariahinada/simple-login-system/issues"
+  },
+  "homepage": "https://github.com/mariahinada/simple-login-system#readme"
 }
