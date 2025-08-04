@@ -7,7 +7,7 @@
 - Tentar login com email e senha que não estão no localStorage → `alertar erro de credenciais`
 - Tentar login com email e senha válidos que estão no localStorage → `alertar sucesso e limpar form`
 
-### Registro
+## Registro
 
 - Tentar enviar com email vazio → `alertar email inválido`
 - Tentar enviar com email sem @ → `alertar email inválido`
